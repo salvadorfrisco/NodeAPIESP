@@ -4,7 +4,8 @@
   "description": "API exemplo com Node.js e MySQL",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "NODE_ENV=production node index.js",
+    "build": "echo 'Não há tarefas de build configuradas.'",
     "dev": "nodemon index.js"
   },
   "keywords": [],
